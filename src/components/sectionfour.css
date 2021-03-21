@@ -1,0 +1,14 @@
+.title {
+    color: #333333;
+}
+
+
+.title-light {
+    font-size: 10px;
+    color: #888888;
+}
+
+.title-last {
+    font-size: 14px; 
+    font-weight: 500;
+}

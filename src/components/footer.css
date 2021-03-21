@@ -1,0 +1,24 @@
+.content-footer {
+    width: 50%;
+}
+
+.left-footer {
+    width: 36%;
+    background: #049A37;
+}
+
+.right-footer {
+    width: 64%;
+    background: #222222;
+}
+
+.btn-footer {
+    background: #049A37;
+
+}
+
+.text-footer {
+    border: 1px solid #333333;
+    background: #111111;
+    color: #999999; 
+}
