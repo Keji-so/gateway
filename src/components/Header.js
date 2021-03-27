@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './header.css'
 import { IoLocationOutline } from 'react-icons/io5';
 import { FiHome } from 'react-icons/fi';
 import { FiFilm } from 'react-icons/fi';
 import { IoCloseOutline } from 'react-icons/io5';
+import { landingAnimation } from "../animations"
 
 
 
@@ -18,13 +19,16 @@ function Header() {
         setShow(!show);
     }
     
+    useEffect(() => {
+        landingAnimation()
+      }, [])
 
 
     return (
         <div>
             <div className={show ? "hidden" : "menu-active z-50 absolute bg-black opacity-95 text-gray-400 flex-col items-center hidden py-10 w-screen h-screen"}>
                 <div className="top flex justify-between w-full px-10">
-                    <div className="nav-left">
+                    <div  className="nav-left">
                          <img src="./images/logo.png" alt="logo-image"/>
                     </div>
 
@@ -48,7 +52,7 @@ function Header() {
                  
 
               <div className="nav absolute w-full flex justify-between top-6">
-                    <div className="nav-left ml-10 md:ml-12 lg:ml-36">
+                    <div id="logo-anim" className="nav-left ml-10 md:ml-12 lg:ml-36">
                         <img src="./images/logo.png" alt="logo-image"/>
                     </div>
 
@@ -58,7 +62,7 @@ function Header() {
                             <div className="line w-3 mt-2 rounded-sm"></div>
                         </div>
 
-                      <ul className="hidden md:flex lg:flex mx-14 md:mx-2 items-center">
+                      <ul id="nav-anim" className="hidden md:flex lg:flex mx-14 md:mx-2 items-center">
                           <li className="px-7 text-sm md:text-xs py-2 md:px-2 cursor-pointer bg-transparent hover:bg-white hover:bg-opacity-20 transition duration-200 ease-in">Home</li>
                           <li className="ml-5 text-sm md:text-xs px-7  md:px-2 py-2 cursor-pointer bg-transparent hover:bg-white hover:bg-opacity-20 transition duration-200 ease-in">Events</li>
                           <li  className="ml-5 text-sm md:text-xs px-7 md:px-2 py-2 cursor-pointer bg-transparent hover:bg-white hover:bg-opacity-20 transition duration-200 ease-in">Food</li>
@@ -72,26 +76,32 @@ function Header() {
               </div>
 
               <div className="lg:text-4xl xl:text-5xl text-xl md:text-3xl  font-semibold absolute max-w-32 xl:top-52 lg:top-44 md:top-40 md:max-w-4xl lg:max-w-4xl top-32 md:left-12 lg:left-36 left-10 w-full text-white">
-                  <div className="flex">You’re one click away</div>
-                  <div className="flex my-3 md:my-3 lg:my-3">From the best places you’ve</div>
-                  <div className="flex">Ever wanted to visit</div>
+                         <div className="overflow-hidden">
+                            <span class="head-anim inline-block">You’re one click away</span>
+                        </div>
+                        <div className="overflow-hidden md:my-4 lg:my-6">
+                            <span class="head-anim inline-block">From the best places you’ve</span>
+                        </div>
+                        <div className="overflow-hidden">
+                            <span class="head-anim inline-block">Ever wanted to visit</span>
+                        </div>
               </div>
 
               <div className="w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
                   <div className=" icons flex md:text-md lg:text-md py-2 mx-10 md:mx-0 lg:mx-0">
-                        <div className="flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
-                             <div className="icons mr-2 bg-transparent text-white">< IoLocationOutline  /></div>
-                             <div className="label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Business</div>
+                        <div className="overflow-hidden flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
+                             <div className="head-anim inline-block icons mr-2 bg-transparent text-white">< IoLocationOutline  /></div>
+                             <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Business</div>
                         </div>
 
-                        <div className="flex mx-12 pb-2 border-b-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
-                            <div className="icons mr-2 bg-transparent text-white"><  FiFilm  /></div>
-                            <div className="label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Events</div>
+                        <div className="overflow-hidden flex mx-12 pb-2 border-b-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
+                            <div className="head-anim inline-block icons mr-2 bg-transparent text-white"><  FiFilm  /></div>
+                            <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Events</div>
                         </div>
 
-                        <div className="flex pb-2 border-b-2 cursor-pointer border-transparent items-center hover:border-white transition ease-in duration-400 text-opacity-50 hover:text-opacity-100">
-                            <div className="icons mr-2 bg-transparent text-white">< FiHome  /></div>
-                            <div className="label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Real Estate</div>
+                        <div className="overflow-hidden flex pb-2 border-b-2 cursor-pointer border-transparent items-center hover:border-white transition ease-in duration-400 text-opacity-50 hover:text-opacity-100">
+                            <div className="head-anim inline-block icons mr-2 bg-transparent text-white">< FiHome  /></div>
+                            <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Real Estate</div>
                         </div>
                   </div>
 

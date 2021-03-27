@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './sectionfive.css'
+import { textAnimation } from "../animations"
 
 function SectionFive() {
+
     return (
-        <div className="px-12 md:px-12 lg:px-20 md:mt-10 flex pb-20">
-            <div className="left hidden md:flex ">
-                <img className="xl:w-full"  src="./images/food.png" alt=""/>
+        <div className="px-12 md:px-12 lg:px-20 md:mt-10 flex pb-20 opacity-100">
+            <div className="left hidden md:flex reveal overflow-hidden">
+                <img className="xl:w-full image"  src="./images/food.png" alt=""/>
             </div>
 
-            <div className="right w-full flex flex-col md:ml-12 items-center justify-evenly pt-16 md:py-3 md:w-1/4 lg:w-1/3 xl:w-1/3">
+            <div  id="text-anim" className="right w-full flex flex-col md:ml-12 items-center justify-evenly pt-16 md:py-3 md:w-1/4 lg:w-1/3 xl:w-1/3">
                  
                  <div>
                     <img className="lg:w-full md:w-12 md:h-12 lg:h-full flex items-center justify-center" src="./images/chips.png" alt=""/>

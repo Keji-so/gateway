@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './sectionone.css'
 import { BiRightArrowAlt } from 'react-icons/bi';
+import { textAnimation } from "../animations"
 
 function SectionOne() {
+
+    useEffect(() => {
+        textAnimation()
+      }, [])
+
     return (
-        <div className="grid md:h-gridd lg:h-gridd xl:h-gridd grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-4 lg:gap-8 px-10 md:px-12 lg:px-20 xl:pb-20">
-            <div className="md:w-11/12 lg:w-11/12 h-full">      
+        <div  className="grid md:h-gridd lg:h-gridd xl:h-gridd grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-4 lg:gap-8 px-10 md:px-12 lg:px-20 xl:pb-20 opacity-100">
+            <div id="num-anim" className="md:w-11/12 lg:w-11/12 h-full">      
                                 <div className="blog px-12 pt-20">
                                     <div className="four absolute left-20 md:left-12 lg:left-20">
                                          <img src="./images/one.png" alt=""/>  
@@ -23,7 +29,7 @@ function SectionOne() {
             
 
             
-            <div className="content pb-14 md:pb-0 md:w-11/12 lg:w-11/12 md:pt-16 lg:py-24 text-left h-full">
+            <div id="text-anim" className="content pb-14 md:pb-0 md:w-11/12 lg:w-11/12 md:pt-16 lg:py-24 text-left h-full">
                 <div className="heading text-3xl md:text-2xl lg:text-2xl font-bold">
                     Who we are
                 </div>
@@ -36,7 +42,7 @@ function SectionOne() {
                 </div>
             </div>
 
-            <div className="content md:pt-16 lg:py-24 md:w-11/12 lg:w-11/12 text-left h-full">
+            <div id="text-anim" className="content md:pt-16 lg:py-24 md:w-11/12 lg:w-11/12 text-left h-full">
                 <div className="heading text-3xl md:text-2xl lg:text-2xl font-bold">
                     What we do
                 </div>

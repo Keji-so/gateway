@@ -1,17 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './footer.css'
+import { textAnimation } from "../animations"
 
 function Footer() {
+
     return (
-        <div className="flex flex-col md:flex-row text-left text-white">
+        <div className="flex flex-col md:flex-row text-left text-white opacity-100">
             
             <div className="left-footer w-full md:w-7/11 text-white text-xs flex flex-col justify-center items-center py-16 md:py-12 lg:py-16">
 
-                <div className="w-2/3 lg:w-1/2">
+                <div id="text-anim" className="w-2/3 lg:w-1/2">
                     <img src="./images/logo.png" alt="logo-image"/>
                 </div>
                  
-                 <div className="w-2/3 lg:w-1/2 text-left leading-6 md:mt-2 lg:mt-4 mt-4">
+                 <div id="text-anim" className="w-2/3 lg:w-1/2 text-left leading-6 md:mt-2 lg:mt-4 mt-4">
                     Laboris duis qui proident cillum. Amet sit ullamco
                     ut culpa adipisicing exercitation tempor nulla. 
                     Aute est laborum id nisi ad veniam fugiat. Culpa tempor
@@ -21,7 +23,7 @@ function Footer() {
             </div>
 
             <div className="right-footer w-full md:w-4/11 flex pt-16 justify-evenly pb-10 px-8">
-                <div className="hidden md:flex flex-col">
+                <div id="text-anim" className="hidden md:flex flex-col">
                     <div className="font-bold mb-4">WEBSITE</div>
                     <div className="links text-xs">
                         <div>Home</div>
@@ -33,7 +35,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="hidden md:flex px-4 flex-col">
+                <div id="text-anim" className="hidden md:flex px-4 flex-col">
                     <div className="font-bold mb-4">SUPPORT</div>
                     <div className="links text-xs">
                         <div >Contacts Us</div>
