@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App box-border">
       <div>
         <Header />
         <SectionOne />

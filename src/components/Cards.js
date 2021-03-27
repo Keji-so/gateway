@@ -3,35 +3,35 @@ import './cards.css'
 
 function Cards() {
     return (
-        <div className="grid grid-cols-3 gap-8 px-20 py-24">
+        <div className="grid mt-16 md:mt-20 md:h-gridd lg:h-tablet xl:h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 md:px-12 px-10 lg:px-20 xl:pb-20">
 
-                            <div className="w-11/12 border border-gray-200 hover:shadow-2xl transition duration-500 ease-out transform hover:-translate-y-5">      
+                            <div className="w-full md:w-11/12 h-full transition duration-500 ease-out transform hover:-translate-y-5">      
                                <img className="w-full" src="./images/card1.png" alt=""/>
-                               <div className="text-left p-4">
+                               <div className="text-left p-4 border border-gray-200 hover:shadow-2xl">
                                  <div className="title font-bold">Rice flakes</div>
                                  <div className="title-text my-1 font-light">Food</div>
                                  <div className="title-light my-1 font-light">Hangout and Restaurant</div>
-                                 <div className="title-last w-4/5">4140 Parker Rd undefined Allentown, New Mexico 31134 United States</div>
+                                 <div className="title-last lg:w-4/5 md:text-xs">4140 Parker Rd undefined Allentown, New Mexico 31134 United States</div>
                                </div> 
                             </div> 
 
-                            <div className="w-11/12 border border-gray-200 hover:shadow-2xl transition duration-500 ease-out transform hover:-translate-y-5">      
+                            <div className="w-full mt-6 md:mt-0 md:w-11/12 h-full transition duration-500 ease-out transform hover:-translate-y-5">      
                                <img className="w-full" src="./images/card2.png" alt=""/>
-                               <div className="text-left p-4">
+                               <div className="text-left p-4 border border-gray-200 hover:shadow-2xl">
                                  <div className="title font-bold">Waffles</div>
                                  <div className="title-text my-1 font-light">Food</div>
                                  <div className="title-light my-1 font-light">Hangout and Restaurant</div>
-                                 <div className="title-last w-4/5">7409 E Little York Rd undefined Orlando, Washington 50418 United States</div>
+                                 <div className="title-last lg:w-4/5 md:text-xs">7409 E Little York Rd undefined Orlando, Washington 50418 United States</div>
                                </div> 
                             </div> 
 
-                            <div className="w-11/12 border border-gray-200 hover:shadow-2xl transition duration-500 ease-out transform hover:-translate-y-5">      
+                            <div className="w-full mt-10 md:mt-0 md:w-11/12 h-full transition duration-500 ease-out transform hover:-translate-y-5">      
                                <img className="w-full" src="./images/card3.png" alt=""/>
-                               <div className="text-left p-4">
+                               <div className="text-left p-4 border border-gray-200 hover:shadow-2xl">
                                  <div className="title font-bold">Fruit Samples</div>
                                  <div className="title-text my-1 font-light">Food</div>
                                  <div className="title-light my-1 font-light">Hangout and Restaurant</div>
-                                 <div className="title-last w-4/5">6405 Thornridge Cir undefined Jacksonville, Hawaii 80417 United States</div>
+                                 <div className="title-last lg:w-4/5 md:text-xs">6405 Thornridge Cir undefined Jacksonville, Hawaii 80417 United States</div>
                                </div> 
                             </div> 
             

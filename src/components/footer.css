@@ -1,14 +1,12 @@
-.content-footer {
+/* .content-footer {
     width: 50%;
-}
+} */
 
 .left-footer {
-    width: 36%;
     background: #049A37;
 }
 
 .right-footer {
-    width: 64%;
     background: #222222;
 }
 

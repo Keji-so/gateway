@@ -3,16 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        greens: '#049A37',
-        greys: {
-          100: '#333333',
-          200: '#666666',
-          300: '#222222',
-          400: '#999999',
-          500: '#F1F1F1',
-        }
-      },
+      height: {
+        gridd: '450px',
+        tablet: '500px',
+        desktop: '580px',
+       },
         fontFamily: {
           body: ['Montserrat'],
           display: ['Rubik']
@@ -28,7 +23,12 @@ module.exports = {
         '8/11': '37%',
         '9/11': '38%',
         '10/11': '39%',
-        }
+        '1/15': '57%',
+        },
+        inset: {
+          '2/15': '34%',
+          '3/15': '44%',
+         }
       },
    },
   variants: {

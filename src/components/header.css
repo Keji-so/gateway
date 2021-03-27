@@ -11,3 +11,16 @@
     background: #049A37;
 
 }
+.icons {
+    font-size: 10px;
+}
+
+.line {
+    height: 2px;
+    opacity: 6;
+    background: white;
+}
+
+.menu-active {
+    display: flex;
+}
