@@ -9,7 +9,7 @@ function SectionFour() {
             
                              <div id="num-anim" className="w-11/12 mt-10 md:mt-0 h-1/2 md:h-full lg:h-full xl:h-full">      
                                 <div className="blog px-12 py-10">
-                                    <div className="four absolute left-20 md:left-12 lg:left-20">
+                                    <div className="four absolute left-0">
                                          <img src="./images/four.png" alt=""/>  
                                     </div>
                                     <div className="text-3xl font-bold md:mt-5 text-left w-24 md:ml-7 mt-32">Blogs</div>

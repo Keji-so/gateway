@@ -4,7 +4,7 @@ import { IoLocationOutline } from 'react-icons/io5';
 import { FiHome } from 'react-icons/fi';
 import { FiFilm } from 'react-icons/fi';
 import { IoCloseOutline } from 'react-icons/io5';
-import { landingAnimation } from "../animations"
+import { landingAnimation, dropinAnimation } from "../animations"
 
 
 
@@ -23,10 +23,16 @@ function Header() {
         landingAnimation()
       }, [])
 
+      useEffect(() => {
+        dropinAnimation()
+      }, [!show])
+
+      
+
 
     return (
         <div>
-            <div className={show ? "hidden" : "menu-active z-50 absolute bg-black opacity-95 text-gray-400 flex-col items-center hidden py-10 w-screen h-screen"}>
+            <div className={show ? "hidden" : "dropdown menu-active z-50 absolute bg-black opacity-95 text-gray-400 flex-col items-center hidden py-10 w-screen h-screen"}>
                 <div className="top flex justify-between w-full px-10">
                     <div  className="nav-left">
                          <img src="./images/logo.png" alt="logo-image"/>
@@ -37,7 +43,7 @@ function Header() {
                      </div>
                 </div>
 
-                <ul className="text-3xl mt-14 pt-8">
+                <ul className="text-3xl mt-4 pt-8">
                           <li className="py-4 cursor-pointer transition duration-200 ease-in hover:text-white ">Home</li>
                           <li className=" py-4 cursor-pointer transition duration-200 ease-in hover:text-white ">Events</li>
                           <li  className="py-4 cursor-pointer  transition duration-200 ease-in hover:text-white ">Food</li>

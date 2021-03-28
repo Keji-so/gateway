@@ -1,4 +1,4 @@
-import gsap, {useEffect} from "gsap"
+import gsap from "gsap"
 import { ScrollTrigger } from "gsap/all"
 
 export const textAnimation = () => {
@@ -105,3 +105,16 @@ export const textAnimation = () => {
   
   
   }
+
+  export const dropinAnimation = () => {
+
+    let dropDown = document.querySelector(".dropdown")
+
+    gsap.from(dropDown, {
+      duration: 1,
+      y: -100,
+      ease: "Power1.easeOut"
+    })
+  }
+
+ 

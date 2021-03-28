@@ -9,17 +9,19 @@ function SectionOne() {
         textAnimation()
       }, [])
 
+     
+
     return (
         <div  className="grid md:h-gridd lg:h-gridd xl:h-gridd grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-4 lg:gap-8 px-10 md:px-12 lg:px-20 xl:pb-20 opacity-100">
             <div id="num-anim" className="md:w-11/12 lg:w-11/12 h-full">      
                                 <div className="blog px-12 pt-20">
-                                    <div className="four absolute left-20 md:left-12 lg:left-20">
+                                    <div className="four absolute left-0">
                                          <img src="./images/one.png" alt=""/>  
                                     </div>
                                     <div className="text-3xl font-bold mt-5 text-left w-24 ml-7">About</div>
                                 </div>
                          <div className="about-us flex justify-center w-full lg:w-32 mt-20  lg:ml-20 md:mt-24 lg:mt-24">
-                <div className="text-sm">About us</div>
+                <div className="text-sm ">About us</div>
                  <div className="icon ml-8 cursor-pointer">< BiRightArrowAlt size="1.5em" /> </div>
              </div>       
           </div> 

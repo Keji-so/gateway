@@ -37,11 +37,11 @@ function SectionThree() {
             
             <div id="num-anim" className="right flex justify-center items-center w-full md:w-5/12">
             <div className="g2n  md:px-12 py-28 md:py-20">
-                <div className="three absolute  md:ml-20">
+                <div className="three absolute left-0 lg:left-16 xl:left-28  md:ml-20">
                   <img src="./images/three.png" alt=""/>  
                 </div>
-               <div className="text-3xl font-bold text-left mt-8 ml-20 md:ml-40 w-24">G2N</div>
-               <div className="text-3xl font-bold text-left ml-20 md:ml-40 w-24">Foods</div>
+               <div className="text-3xl font-bold text-left mr-10 md:mr-0 mt-8 md:ml-40 w-24">G2N</div>
+               <div className="text-3xl font-bold text-left mr-10 md:mr-0 md:ml-40 w-24">Foods</div>
              </div>
             </div>
 

@@ -14,7 +14,7 @@ function SectionTwo() {
             
       <div id="num-anim" className="w-11/12 h-1/2 md:h-full lg:h-full xl:h-full">      
          <div className="blog px-12 py-10">
-             <div className="two absolute left-20 md:left-12 lg:left-20">
+             <div className="two absolute left-0">
                   <img src="./images/two.png" alt=""/>  
              </div>
              <div className="text-3xl font-bold md:mt-5 text-left w-32 md:ml-7 mt-32">Featured</div>
