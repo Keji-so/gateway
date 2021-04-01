@@ -11,7 +11,7 @@ export const textAnimation = () => {
             start: "top bottom",
             toggleActions: "play none none none",
           },
-          duration: 2,
+          duration: 1,
           y: 100,
           opacity: 0,
           transformOrigin: "center center",
@@ -26,7 +26,7 @@ export const textAnimation = () => {
             start: "left right",
             toggleActions: "play none none none",
           },
-          duration: 2,
+          duration: 1,
           x: -100,
           opacity: 0,
           transformOrigin: "center center",
@@ -44,7 +44,7 @@ export const textAnimation = () => {
     
         let text = container.querySelectorAll(".line-anim")
     
-        tl.from(text, 2, {
+        tl.from(text, 1, {
           opacity: 0,
           y: 100,
           delay: 0.2,
@@ -61,24 +61,27 @@ export const textAnimation = () => {
 
     let headText = document.querySelectorAll(".head-anim")
     let logo = document.querySelector("#logo-anim")
-    let nav = document.querySelector("#nav-anim")
+    let nav = document.querySelectorAll("#nav-anim")
     
-    tl.from(logo, 2, {
+    tl.from(logo, {
+       duration: 0.8,
         opacity: 0,
         y: -100,
         ease: "Expo.easeOut",
         
-      }).from(nav, 1, {
+      }).from(nav, {
+        duration: 0.8,
         opacity: 0,
         y: -100,
         ease: "Expo.easeOut",
         
-      }).from(headText, 2, {
+      }).from(headText, {
+      duration: 0.8,
       opacity: 0,
       y: 100,
       ease: "Expo.easeOut",
       stagger: {
-        amount: 0.8,
+        amount: 0.3,
       }
     })
 
@@ -97,7 +100,8 @@ export const textAnimation = () => {
     
         tl.set(container, { autoAlpha: 1 })
       
-       tl.from(image, 3, {
+       tl.from(image, {
+          duration: 2,
            y: 100,
            ease: "Expo.easeOut"
        })

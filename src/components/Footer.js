@@ -25,24 +25,24 @@ function Footer() {
             <div className="right-footer w-full md:w-4/11 flex pt-16 justify-evenly pb-10 px-8">
                 <div id="text-anim" className="hidden md:flex flex-col">
                     <div className="font-bold mb-4">WEBSITE</div>
-                    <div className="links text-xs">
-                        <div>Home</div>
-                        <div className="my-3">About us</div>
-                        <div className="my-3">Services</div>
-                        <div className="my-3">Foods</div>
-                        <div className="my-3">Events</div>
-                        <div>Deals</div>
+                    <div className="links text-xs cursor-pointer">
+                        <div className="opacity-70 hover:opacity-100">Home</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">About us</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Services</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Foods</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Events</div>
+                        <div className="opacity-70 hover:opacity-100">Deals</div>
                     </div>
                 </div>
 
                 <div id="text-anim" className="hidden md:flex px-4 flex-col">
                     <div className="font-bold mb-4">SUPPORT</div>
-                    <div className="links text-xs">
-                        <div >Contacts Us</div>
-                        <div className="my-3">Privacy Policy</div>
-                        <div className="my-3">Support service</div>
-                        <div className="my-3">Customer care</div>
-                        <div>Terms and Conditions</div>
+                    <div className="links text-xs cursor-pointer">
+                        <div className="opacity-70 hover:opacity-100">Contacts Us</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Privacy Policy</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Support service</div>
+                        <div className="my-3 opacity-70 hover:opacity-100">Customer care</div>
+                        <div className="opacity-70 hover:opacity-100">Terms and Conditions</div>
                     </div>
                 </div>
 

@@ -63,7 +63,7 @@ function Header() {
                     </div>
 
                     <div className="nav-right flex text-white mr-14 md:mr-16 lg:mr-20">
-                        <div className="hamburger justify-center flex flex-col md:hidden lg:hidden cursor-pointer" onClick={handleMenu}>
+                        <div id="nav-anim" className="hamburger justify-center flex flex-col md:hidden lg:hidden cursor-pointer" onClick={handleMenu}>
                             <div className="line w-5 rounded-sm"></div>
                             <div className="line w-3 mt-2 rounded-sm"></div>
                         </div>
@@ -75,7 +75,7 @@ function Header() {
                           <li  className="ml-5 text-sm md:text-xs px-7 md:px-2 py-2 cursor-pointer bg-transparent hover:bg-white hover:bg-opacity-20 transition duration-200 ease-in">Deals</li>
                       </ul>
 
-                     <div className="btn-header hidden md:flex lg:flex items-center justify-center px-6 md:px-5 md:ml-2 lg:ml-2 text-sm md:text-xs cursor-pointer">
+                     <div className="btn-header hidden md:flex lg:flex items-center justify-center px-6 md:px-5 md:ml-2 lg:ml-2 text-sm md:text-xs cursor-pointer hover:bg-transparent transition duration-200 ease-in">
                           Add a listing
                       </div>
                   </div>
@@ -94,7 +94,7 @@ function Header() {
               </div>
 
               <div className="w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
-                  <div className=" icons flex md:text-md lg:text-md py-2 mx-10 md:mx-0 lg:mx-0">
+                  <div className=" text-xxs flex md:text-sm lg:text-sm py-2 mx-10 md:mx-0 lg:mx-0">
                         <div className="overflow-hidden flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
                              <div className="head-anim inline-block icons mr-2 bg-transparent text-white">< IoLocationOutline  /></div>
                              <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Business</div>
@@ -111,9 +111,9 @@ function Header() {
                         </div>
                   </div>
 
-                  <div className="bottom md:px-3 lg:px-2  flex flex-col md:flex-row lg:flex-row icons md:text-sm lg:text-sm py-1 md:py-2 lg:py-2 bg-white bg-opacity-20">
+                  <div className="bottom  md:px-3 lg:px-2  flex flex-col md:flex-row lg:flex-row icons md:text-sm lg:text-sm py-1 md:py-2 lg:py-2 bg-white bg-opacity-20">
 
-                        <div className="inputs flex justify-around md:w-4/5 lg:w-4/5">
+                        <div className="inputs text-xxs md:text-sm flex justify-around md:w-4/5 lg:w-4/5">
                             <div className="input-1 mb-6 w-2/5">
                                  <input className="py-2 text-white placeholder-white outline-none w-full bg-transparent border-b border-white" placeholder="What are you looking for?" type="text"/>
                             </div>
@@ -124,8 +124,8 @@ function Header() {
                         </div>
                         
 
-                        <div className="btn flex items-center icons md:text-sm lg:text-sm justify-start mx-5 mb-4 md:mb-0 lg:mb-0">
-                             <div className="btn-header px-2 py-1 md:px-4 md:py-2 lg:px-4 lg:py-2 cursor-pointer text-white">
+                        <div className="btn flex items-center justify-center md:justify-start icons mx-5 mb-4 md:mb-0 lg:mb-0">
+                             <div className="btn-header flex items-center justify-center text-xs md:text-sm lg:text-sm w-2/3  md:w-full px-2 py-2 md:px-4 md:py-2 lg:px-4 lg:py-2 cursor-pointer text-white hover:bg-transparent transition duration-200 ease-in">
                                  Search
                             </div>
                         </div>

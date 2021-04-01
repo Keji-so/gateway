@@ -12,6 +12,11 @@ module.exports = {
           body: ['Montserrat'],
           display: ['Rubik']
         },
+        fontSize: {
+          'xxs': '10px',
+          'ssm': '12px',
+          'mmd': '14px',
+        },
         width: {
         '1/11': '61%',
         '2/11': '62%',

@@ -18,7 +18,7 @@ function SectionFive() {
 
                  <div className="flex font-bold">
                     <div className="title-five md:text-sm text-xl lg:text-xl">McDonalds</div>
-                    <div className="btn-five md:px-1 md:py-1 px-2 py-2 rounded-full flex justify-center ml-3"><img src="./images/plusfour.png" alt=""/></div>
+                    <div className="btn-five md:px-1 md:py-1 lg:px-2 lg:py-2 px-2 py-2 rounded-full flex justify-center ml-3"><img src="./images/plusfour.png" alt=""/></div>
                  </div>
                     
                  <div className="last md:text-xs w-full mt-4 md:mt-2 lg:mt-0 lg:w-2/3 text-center">
@@ -29,7 +29,7 @@ function SectionFive() {
                      McDonalds is one of our top listing restaurants, and customers have always left us with good reviews
                 </div>
 
-                 <div className="btn-five flex items-center justify-center text-white bg-green-600 px-12 py-2 text-sm cursor-pointer">
+                 <div className="btn-five flex items-center justify-center text-white bg-green-600 px-12 py-2 text-sm cursor-pointer hover:bg-transparent hover:border-gray-600 transition duration-200 ease-in hover:text-gray-600">
                     Check in
                  </div>
 

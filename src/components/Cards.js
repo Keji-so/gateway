@@ -5,7 +5,7 @@ import { textAnimation } from "../animations"
 function Cards() {
 
     return (
-        <div  className="grid mt-16 md:mt-20 md:h-gridd lg:h-tablet xl:h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 md:px-12 px-10 lg:px-20 xl:pb-20">
+        <div  className="grid mt-16 md:mt-20 md:h-gridd md:min-h-gridd lg:min-h-tablet xl:min-h-desktop lg:h-tablet xl:h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 md:px-12 px-10 lg:px-20 xl:pb-20">
 
                             <div id="text-anim" className="w-full md:w-11/12 h-full transition duration-500 ease-out transform hover:-translate-y-5">      
                                

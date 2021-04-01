@@ -5,7 +5,7 @@ import { textAnimation } from "../animations"
 function SectionFour() {
 
     return (
-        <div  className="grid md:h-gridd lg:h-tablet xl:h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 px-10 lg:px-20 md:px-12 xl:pb-24 opacity-100">
+        <div  className="grid md:h-gridd lg:h-tablet xl:h-desktop md:min-h-gridd lg:min-h-tablet xl:min-h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 px-10 lg:px-20 md:px-12 xl:pb-24 opacity-100">
             
                              <div id="num-anim" className="w-11/12 mt-10 md:mt-0 h-1/2 md:h-full lg:h-full xl:h-full">      
                                 <div className="blog px-12 py-10">

@@ -10,7 +10,7 @@ function SectionTwo() {
 
     return (
 
-      <div className="grid md:h-gridd lg:h-tablet xl:h-desktop grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 md:px-12 px-10 lg:px-20 xl:pb-20 opacity-100">
+      <div className="grid md:h-gridd lg:h-tablet xl:h-desktop md:min-h-gridd lg:min-h-tablet xl:min-h-desktop  grid-rows-3 md:grid-cols-3 md:gap-4 lg:gap-8 md:px-12 px-10 lg:px-20 xl:pb-20 opacity-100">
             
       <div id="num-anim" className="w-11/12 h-1/2 md:h-full lg:h-full xl:h-full">      
          <div className="blog px-12 py-10">

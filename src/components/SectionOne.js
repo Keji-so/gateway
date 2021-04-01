@@ -12,7 +12,7 @@ function SectionOne() {
      
 
     return (
-        <div  className="grid md:h-gridd lg:h-gridd xl:h-gridd grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-4 lg:gap-8 px-10 md:px-12 lg:px-20 xl:pb-20 opacity-100">
+        <div  className="grid md:h-gridd lg:h-gridd xl:h-gridd  md:min-h-gridd lg:min-h-gridd xl:min-h-gridd  grid-rows-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-4 lg:gap-8 px-10 md:px-12 lg:px-20 xl:pb-20 opacity-100">
             <div id="num-anim" className="md:w-11/12 lg:w-11/12 h-full">      
                                 <div className="blog px-12 pt-20">
                                     <div className="four absolute left-0">

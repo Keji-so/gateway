@@ -9,11 +9,9 @@
 
 .btn-header {
     background: #049A37;
+    border: 1px solid #049A37;
+}
 
-}
-.icons {
-    font-size: 10px;
-}
 
 .line {
     height: 2px;

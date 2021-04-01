@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './sectionthree.css'
-import { textAnimation } from "../animations"
 
 function SectionThree() {
 
@@ -24,7 +23,7 @@ function SectionThree() {
                         </div>
                     </div>
                
-                   <div id="text-anim" className="btn-three flex items-center justify-center py-2 w-36 text-sm cursor-pointer mt-8 text-white">Take a tour</div>
+                   <div id="text-anim" className="btn-three flex items-center justify-center py-2 w-36 text-sm cursor-pointer mt-8 text-white hover:bg-transparent hover:border-gray-600 transition duration-200 ease-in hover:text-gray-600">Take a tour</div>
 
              <div className="reveal overflow-hidden hidden md:flex md:right-56 md:w-56 md:h-56 lg:w-64 lg:h-64 lg:right-80 xl:w-72 xl:h-72 xl:right-2/15 z-20 absolute">
                 <img className="image" src="./images/plate.png" alt=""/>
