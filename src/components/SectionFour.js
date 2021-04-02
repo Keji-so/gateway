@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './sectionfour.css'
-import { textAnimation } from "../animations"
+
 
 function SectionFour() {
 

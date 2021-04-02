@@ -1,9 +1,9 @@
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/all"
 
-export const textAnimation = () => {
-    gsap.registerPlugin(ScrollTrigger) //register scroll trigger plugin
+gsap.registerPlugin(ScrollTrigger); //register scroll trigger plugin
 
+export const textAnimation = () => {
     gsap.utils.toArray("#text-anim").forEach(anim => {
         gsap.from(anim, {
           scrollTrigger: {
@@ -88,7 +88,7 @@ export const textAnimation = () => {
  }
 
  export const imageAnimation = () => {
-    gsap.registerPlugin(ScrollTrigger)
+    
     gsap.utils.toArray(".reveal").forEach(container => {
         let image = container.querySelector(".image")
         let tl = gsap.timeline({

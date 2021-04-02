@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './sectionfive.css'
-import { textAnimation } from "../animations"
 
 function SectionFive() {
 
