@@ -62,26 +62,42 @@ export const textAnimation = () => {
     let headText = document.querySelectorAll(".head-anim")
     let logo = document.querySelector("#logo-anim")
     let nav = document.querySelectorAll("#nav-anim")
+    let icons = document.querySelectorAll(".icon-anim")
     
     tl.from(logo, {
-       duration: 0.8,
+       duration: 0.5,
         opacity: 0,
         y: -100,
         ease: "Expo.easeOut",
         
       }).from(nav, {
-        duration: 0.8,
+        duration: 0.5,
         opacity: 0,
         y: -100,
         ease: "Expo.easeOut",
         
       }).from(headText, {
-      duration: 0.8,
+      duration: 0.6,
       opacity: 0,
       y: 100,
       ease: "Expo.easeOut",
       stagger: {
         amount: 0.3,
+      }
+    }).from(".input-section", {
+      duration: 0.5,
+      opacity: 0,
+      y: 50,
+      ease: "Expo.easeOut",
+      
+    })
+    .from(icons, {
+      duration: 0.5,
+      opacity: 0,
+      y: 100,
+      ease: "Expo.easeOut",
+      stagger: {
+        amount: 0.1,
       }
     })
 

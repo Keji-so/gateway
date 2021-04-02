@@ -93,21 +93,29 @@ function Header() {
                         </div>
               </div>
 
-              <div className="w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
+              <div className="input-section w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
                   <div className=" text-xxs flex md:text-sm lg:text-sm py-2 mx-10 md:mx-0 lg:mx-0">
-                        <div className="overflow-hidden flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
-                             <div className="head-anim inline-block icons mr-2 bg-transparent text-white">< IoLocationOutline  /></div>
-                             <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Business</div>
+                        <div className="flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
+                        <div className="overflow-hidden">
+                            <span class="icon-anim inline-block icons mr-2 bg-transparent text-white">< IoLocationOutline  /></span>
+                            <div className="icon-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Business</div>
+                        </div>
+                             
+                             
                         </div>
 
-                        <div className="overflow-hidden flex mx-12 pb-2 border-b-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
-                            <div className="head-anim inline-block icons mr-2 bg-transparent text-white"><  FiFilm  /></div>
-                            <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Events</div>
+                        <div className="flex mx-12 pb-2 border-b-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
+                        <div className="overflow-hidden">
+                            <span className="icon-anim inline-block icons mr-2 bg-transparent text-white"><  FiFilm  /></span>
+                            <div className="icon-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Events</div>
+                            </div>
                         </div>
 
-                        <div className="overflow-hidden flex pb-2 border-b-2 cursor-pointer border-transparent items-center hover:border-white transition ease-in duration-400 text-opacity-50 hover:text-opacity-100">
-                            <div className="head-anim inline-block icons mr-2 bg-transparent text-white">< FiHome  /></div>
-                            <div className="head-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Real Estate</div>
+                        <div className="flex pb-2 border-b-2 cursor-pointer border-transparent items-center hover:border-white transition ease-in duration-400 text-opacity-50 hover:text-opacity-100">
+                        <div className="overflow-hidden">
+                            <span className="icon-anim inline-block icons mr-2 bg-transparent text-white">< FiHome  /></span>
+                            <div className="icon-anim inline-block label font-light hover:font-semibold text-white text-opacity-70 hover:text-opacity-100">Real Estate</div>
+                            </div>
                         </div>
                   </div>
 
