@@ -93,7 +93,7 @@ function Header() {
                         </div>
               </div>
 
-              <div className="input-section w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
+              <div className="w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
                   <div className=" text-xxs flex md:text-sm lg:text-sm py-2 mx-10 md:mx-0 lg:mx-0">
                         <div className="flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
                         <div className="overflow-hidden">

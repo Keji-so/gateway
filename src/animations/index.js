@@ -84,12 +84,6 @@ export const textAnimation = () => {
       stagger: {
         amount: 0.3,
       }
-    }).from(".input-section", {
-      duration: 0.5,
-      opacity: 0,
-      y: 50,
-      ease: "Expo.easeOut",
-      
     })
     .from(icons, {
       duration: 0.5,
