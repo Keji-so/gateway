@@ -4,7 +4,7 @@ import './sectionfive.css'
 function SectionFive() {
 
     return (
-        <div className="px-12 md:px-12 lg:px-20 md:mt-10 flex pb-20 opacity-100">
+        <div className="px-12 md:px-12 lg:px-24 md:mt-10 flex pb-20 opacity-100">
             <div className="left hidden md:flex reveal overflow-hidden">
                 <img className="xl:w-full image"  src="./images/food.png" alt=""/>
             </div>
