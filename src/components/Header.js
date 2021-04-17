@@ -32,7 +32,7 @@ function Header() {
 
     return (
         <div>
-            <div className={show ? "hidden" : "dropdown menu-active z-50 absolute bg-black opacity-95 text-gray-400 flex-col items-center hidden py-10 w-screen h-screen"}>
+            <div className={show ? "hidden" : "dropdown menu-active z-50 absolute bg-black opacity-95 text-gray-400 flex flex-col items-center hidden py-10 w-screen h-screen"}>
                 <div className="top flex justify-between w-full px-10">
                     <div  className="nav-left">
                          <img src="./images/logo.png" alt="logo-image"/>
@@ -81,7 +81,7 @@ function Header() {
                   </div>
               </div>
 
-              <div className="lg:text-4xl xl:text-5xl text-xl md:text-3xl  font-semibold absolute max-w-32 xl:top-52 lg:top-44 md:top-40 md:max-w-4xl lg:max-w-4xl top-32 md:left-12 lg:left-36 left-10 w-full text-white">
+              <div className="lg:text-4xl xl:text-5xl text-xl md:text-3xl  font-semibold absolute max-w-32 xl:top-52 lg:top-44 md:top-40 md:max-w-4xl lg:max-w-4xl top-32 md:left-12 lg:left-36 left-10  text-white">
                          <div className="overflow-hidden">
                             <span class="head-anim inline-block">You’re one click away</span>
                         </div>
@@ -93,7 +93,7 @@ function Header() {
                         </div>
               </div>
 
-              <div className="w-full md:w-4/11 lg:w-3/11 xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
+              <div className="w-screen md:w-4/11 lg:w-3/11  xl:w-4/11 absolute bottom-0 lg:right-0 md:right-0">
                   <div className=" text-xxs flex md:text-sm lg:text-sm py-2 mx-10 md:mx-0 lg:mx-0">
                         <div className="flex md:ml-8 lg:ml-8 border-b-2 pb-2 cursor-pointer border-transparent  items-center hover:border-white transition ease-in duration-400">
                         <div className="overflow-hidden">
@@ -142,7 +142,7 @@ function Header() {
               </div>
              
 
-              <img className="w-full h-screen" src="./images/city.png" alt="bg-image"/> 
+              <img className="w-screen h-screen" src="./images/city.png" alt="bg-image"/> 
 
      
          </div>
